@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <title>shop</title>
+    <!-- Font-Awesome css file link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- swiper CDN css file link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Bootstrap css file link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom Css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- media Css file link -->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="shop-page">
+    <!-- start header & nav section -->
+    <header class="header">
+      <a class="logo" href="#home">
+        <i class="fa-solid fa-basket-shopping"></i>
+        Groco
+      </a>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+        <a href="review.html">review</a>
+        <a href="blogs.html">blogs</a>
+        <a href="contact.html">contact</a>
+      </nav>
+      <div class="icons">
+        <div id="bars-btn"><i class="fa-solid fa-bars"></i></div>
+        <div id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div id="cart-shopping-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div id="login-btn"><i class="fa-solid fa-user"></i></div>
+      </div>
+      <form action="" class="search-form">
+        <input type="text" id="search-box" placeholder="search here..." />
+        <label
+          for="search-box"
+          class="search-box-icon fa-solid fa-magnifying-glass"
+        ></label>
+      </form>
+      <div class="shopping-cart">
+        <div class="box-cart box-cart-1" style="border-radius: 10px 10px 0 0">
+          <i class="fa-solid fa-trash"></i>
+          <img src="images/cart-img-1.png" alt="" />
+          <div class="content">
+            <h3>watermelon</h3>
+            <span class="price">$4.99 -</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <div class="box-cart box-cart-2">
+          <i class="fa-solid fa-trash"></i>
+          <img src="images/cart-img-2.png" alt="" />
+          <div class="content">
+            <h3>onion</h3>
+            <span class="price">$1.99-</span>
+            <span class="quantity">Qty : 3</span>
+          </div>
+        </div>
+        <div class="box-cart box-cart-3" style="border-radius: 0 0 10px 10px">
+          <i class="fa-solid fa-trash"></i>
+          <img src="images/cart-img-3.png" alt="" />
+          <div class="content">
+            <h3>chicken</h3>
+            <span class="price">$8.99-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $19.95</div>
+        <button type="button" class="button-components">checkout</button>
+      </div>
+      <div class="login">
+        <h1>login now</h1>
+        <form action="" class="login-form">
+          <input type="text" placeholder="your email" />
+          <input type="password" placeholder="your password" />
+        </form>
+        <div class="remember">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <button type="submit" class="button-components">login now</button>
+        <div>
+          <p>forget your password <a href="#">click here</a></p>
+          <p>don't have an account <a href="#">create now</a></p>
+        </div>
+      </div>
+    </header>
+    <!-- end header & nav section -->
+    <!-- ********************************************** -->
+    <!-- start heading section -->
+    <section class="heading-section-2">
+      <h1>Our Shop</h1>
+      <p>
+        <a href="index.html">home >></a>
+        shop
+      </p>
+    </section>
+    <!-- end heading section -->
+    <!-- ********************************************** -->
+    <!-- start Category section -->
+    <section class="Category-2">
+      <!-- start title component -->
+      <div class="title-component">
+        <h2>our <span>category</span></h2>
+        <a href="#">view all >></a>
+      </div>
+      <!-- end title component -->
+      <div class="Category-container">
+        <a href="#" class="Category-box">
+          <img src="images/cat-5.png" alt="" />
+          <h2>fresh fruits</h2>
+        </a>
+        <a href="#" class="Category-box">
+          <img src="images/cat-6.png" alt="" />
+          <h2>vegetables</h2>
+        </a>
+        <a href="#" class="Category-box">
+          <img src="images/cat-7.png" alt="" />
+          <h2>organic spices</h2>
+        </a>
+        <a href="#" class="Category-box">
+          <img src="images/cat-8.png" alt="" />
+          <h2>fresh meat</h2>
+        </a>
+        <a href="#" class="Category-box">
+          <img src="images/cat-9.png" alt="" />
+          <h2>organic wheat</h2>
+        </a>
+      </div>
+    </section>
+    <!-- end Category section -->
+    <!-- ********************************************** -->
+    <!-- start products section -->
+    <section class="products-2">
+      <!-- start title component -->
+      <div class="title-component">
+        <h2>our <span>products</span></h2>
+        <a href="#">view all >></a>
+      </div>
+      <!-- end title component -->
+      <div class="products-container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-1.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-2.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-3.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-4.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-5.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-6.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-7.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img class="img-2" src="images/product-8.png" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-9.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-10.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-11.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-12.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-13.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-14.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-15.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="products-box">
+              <div class="icons">
+                <a href="#" class="icon-2 fas fa-shopping-cart"></a>
+                <a href="#" class="icon-2 fas fa-heart"></a>
+                <a href="#" class="icon-2 fas fa-eye"></a>
+              </div>
+              <img src="images/product-16.jpg" alt="" />
+              <h3>Organic Food</h3>
+              <p>$18.99</p>
+              <div class="star">
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star"></i>
+                <i class="star-icon fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end products section -->
+    <!-- ********************************************** -->
+    <!-- start footer section -->
+    <footer class="footer-shop-page">
+      <div class="row container">
+        <div class="footer-links-2 col-lg-3 col-md-6 col-sm-12">
+          <span class="logo">
+            groco
+            <i class="fa-solid fa-basket-shopping"></i>
+          </span>
+          <p>
+            Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Aliquam,
+            Saepe.
+          </p>
+          <a
+            href="#"
+            class="footer-icons-1 icon-footer-shop fab fa-facebook-f"
+          ></a>
+          <a
+            href="#"
+            class="footer-icons-1 icon-footer-shop fab fa-twitter"
+          ></a>
+          <a
+            href="#"
+            class="footer-icons-1 icon-footer-shop fab fa-whatsapp"
+          ></a>
+          <a
+            href="#"
+            class="footer-icons-1 icon-footer-shop fab fa-instagram"
+          ></a>
+          <a
+            href="#"
+            class="footer-icons-1 icon-footer-shop fab fa-linkedin"
+          ></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <span class="logo">contact info</span>
+          <a href="#" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-phone"></i>
+            <span>+011-4096-3154</span>
+          </a>
+          <a href="#" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-phone"></i>
+            <span>+0155-1750-940</span>
+          </a>
+          <a href="#" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-envelope"></i>
+            <span>eng-kareem@gmail.com</span>
+          </a>
+          <a href="#" class="footer-links">
+            <i
+              class="footer-icons-2 icon-footer-shop fas fa-map-marker-alt"
+            ></i>
+            <span>el-doqy, cairo, egypt</span>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <span class="logo">quick links</span>
+          <a href="index.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>home</span>
+          </a>
+          <a href="shop.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>shop</span>
+          </a>
+          <a href="about.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>about</span>
+          </a>
+          <a href="review.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>review</span>
+          </a>
+          <a href="blogs.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>blogs</span>
+          </a>
+          <a href="contact.html" class="footer-links">
+            <i class="footer-icons-2 icon-footer-shop fas fa-arrow-right"></i>
+            <span>contact</span>
+          </a>
+        </div>
+        <div class="last col-lg-3 col-md-6 col-sm-12">
+          <span class="logo">Newsletter</span>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input class="input-2" type="email" placeholder="your email" />
+            <button type="button" class="button-components">subscribe</button>
+          </form>
+          <img src="images/payment.png" alt="" />
+        </div>
+      </div>
+      <h2>
+        created by <span>eng. kareem abou-taleb</span> | all rights reserved
+      </h2>
+    </footer>
+    <!-- end footer section -->
+    <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+    <!-- Bootstrap js file link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font-Awesome js file link -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery Js file link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- swiper CDN Js file link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom Js file link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
